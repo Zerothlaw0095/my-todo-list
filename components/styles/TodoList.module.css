@@ -1,0 +1,96 @@
+/* components/styles/TodoList.module.css */
+.todoListContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f9f9f9; /* Light gray background color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft box shadow */
+  }
+  
+  .taskInput {
+    width: calc(100% - 100px);
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .addTaskButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .addTaskButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .taskList {
+    margin-top: 1rem;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .taskItem {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem 0;
+  }
+  
+  .taskItem:last-child {
+    border-bottom: none;
+  }
+  
+  .taskItemCheckbox {
+    margin-right: 1rem;
+  }
+  
+  .taskItemText {
+    flex: 1;
+    font-size: 1rem;
+  }
+  
+  .taskItemText.completed {
+    text-decoration: line-through;
+    color: #666;
+  }
+  
+  .taskItemButton {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .taskItemButton:hover {
+    background-color: #c82333;
+  }
+  
+  .markCompletedButton,
+  .clearCompletedButton {
+    margin-top: 1rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .markCompletedButton:hover,
+  .clearCompletedButton:hover {
+    background-color: #218838;
+  }
+  

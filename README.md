@@ -1,1 +1,1 @@
-# todo
+This is my todolist app done by nextjs, tailwind-css, docker and husky.

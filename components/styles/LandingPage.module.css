@@ -1,0 +1,45 @@
+/* components/styles/LandingPage.module.css */
+.landingPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000; /* Black background color */
+    color: #fff; /* White text color */
+}
+
+.hero {
+    text-align: center;
+}
+
+.heroContent {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.heroHeading {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: bold; /* Bold text */
+}
+
+.heroSubheading {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.ctaButton {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ctaButton:hover {
+    background-color: #0056b3;
+}
